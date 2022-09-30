@@ -9,15 +9,13 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
+
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("蜀ICP备2022013528号-1")}
+
+          <a href="https://beian.miit.gov.cn/">
+            蜀ICP备2022013528号-1
+          </a>
         </p>
-        {/*<p className={isDark ? "dark-mode footer-text" : "footer-text"}>*/}
-        {/*  Power by{" "}*/}
-        {/*  <a href="https://github.com/saadpasta/developerFolio">*/}
-        {/*    developerFolio*/}
-        {/*  </a>*/}
-        {/*</p>*/}
       </div>
     </Fade>
   );
